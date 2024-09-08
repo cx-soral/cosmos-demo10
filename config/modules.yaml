@@ -1,0 +1,10 @@
+xia-module:
+  package: xia-module
+gh-module-foundation:
+  package: xia-module-application-gh
+  events:
+    deploy:
+gh-module-application:
+  package: xia-module-application-gh
+  events:
+    activate:
